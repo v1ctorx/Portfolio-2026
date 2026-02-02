@@ -29,15 +29,15 @@ a:hover {
 }
 .frontend h1 {
   text-align: center;
-  font-size: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 55px;
 }
 .frontend p {
   font-size: 18px;
   text-align: center;
-  color: #6d6666;
+  color: #66696d;
 }
-h2, h2{
+h2, h3{
   text-align: center;
   padding: 15px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -60,7 +60,7 @@ h2, h2{
   display: flex;
   justify-content: space-around;
 }
-.hmtl5 {
+.html5 {
   color: #ff5722;
   text-align: center;
 
