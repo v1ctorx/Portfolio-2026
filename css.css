@@ -1,31 +1,37 @@
 * {
+    text-decoration: none;
     margin: 0px;
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #111111;
+  background-color: white;
 }
 ul li {
-  float: left;
+  display: inline-block;
 }
 ul li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 18px 20px;
   text-decoration: none;
 }
+li a {
+  font-size: smaller;
+}
 a:hover {
-  color: #FFEB3B;
+  color: #4ea2de;
 }
 .frontend {
-  margin: 20px;
-  padding: 10px;
+  margin: 30px;
+  padding: 20px;
 }
 .frontend h1 {
   text-align: center;
@@ -35,7 +41,7 @@ a:hover {
 .frontend p {
   font-size: 18px;
   text-align: center;
-  color: #66696d;
+  color: #4ea2de;
 }
 h2, h3{
   text-align: center;
