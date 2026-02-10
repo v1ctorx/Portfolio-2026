@@ -4,9 +4,15 @@
     padding: 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.logo{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: larger; font-style: italic; font-weight: 300;
+}
 ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: end;
   gap: 2px;
   list-style-type: none;
   margin: 0;
@@ -18,7 +24,7 @@ ul li {
 }
 ul li a {
   display: block;
-  color: black;
+  color: #000000;
   text-align: center;
   padding: 18px 20px;
   text-decoration: none;
@@ -51,6 +57,21 @@ h2, h3{
 .myapresentation {
   margin: 10px;
   padding: 10px;
+}
+.contaicon {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.contaicon li {
+  color: inherit;
+  list-style-type: none;
+}
+.contaicon a {
+  color: inherit;
+}
+.contaicon a:hover{
+  color: #4ea2de;
 }
 .skills {
   text-align: justify;
